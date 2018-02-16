@@ -118,7 +118,9 @@ public class AdminActivity extends AppCompatActivity
             loadFragment(new Approvals());
         }
 
-        else if (id == R.id.nav_settings) {
+        else if (id == R.id.nav_settings)
+        {
+            loadFragment(new LeaveTracker());
 
         }
         else if (id == R.id.nav_notification) {
