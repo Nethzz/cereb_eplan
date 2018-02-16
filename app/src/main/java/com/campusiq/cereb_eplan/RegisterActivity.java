@@ -34,7 +34,7 @@ public class RegisterActivity extends AppCompatActivity {
 
                 Intent intent=new Intent(RegisterActivity.this,MainActivity.class);
                 startActivity(intent);
-                Toast.makeText(getApplicationContext(), "Registration Succesfully", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getApplicationContext(), "Registration Succesfully", Toast.LENGTH_SHORT).show();
 
             }
         });
@@ -45,7 +45,7 @@ public class RegisterActivity extends AppCompatActivity {
             {
                 Intent intent=new Intent(RegisterActivity.this,MainActivity.class);
                 startActivity(intent);
-                Toast.makeText(getApplicationContext(), "Registration Canceled", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getApplicationContext(), "Registration Canceled", Toast.LENGTH_SHORT).show();
             }
         });
 
