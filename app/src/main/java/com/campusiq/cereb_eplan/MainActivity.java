@@ -36,10 +36,12 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view)
             {
 
+
+
+
                 if(eusername.getText().toString().equals("admin") && epassword.getText().toString().equals("admin"))
                 {
-                    Toast.makeText(getApplicationContext(),
-                            "Redirecting...",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(),"Redirecting...",Toast.LENGTH_SHORT).show();
                     intent=new Intent(MainActivity.this,AdminActivity.class);
                     startActivity(intent);
 
@@ -84,6 +86,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view)
             {
+
+
                 intent=new Intent(MainActivity.this,RegisterActivity.class);
                 startActivity(intent);
             }
